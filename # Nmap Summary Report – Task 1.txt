@@ -1,0 +1,20 @@
+Nmap Summary Report – Task 1
+
+Devices Scanned:
+192.168.1.1 (probably router)
+192.168.1.5 (laptop or phone)
+
+Open Ports Found:
+80 (HTTP):** Used for web interface
+443 (HTTPS):** Secure web interface
+22 (SSH):** Remote access – risky if enabled without firewall
+53 (DNS):** Used for domain name resolution
+139/445:** SMB file sharing – vulnerable if not secured
+
+Risks:
+Open SSH and SMB ports can be targets for brute-force or ransomware attacks.
+HTTP (port 80) without HTTPS can expose login credentials.
+It's best to disable unused services and use a firewall.
+
+Conclusion:
+This task helped me understand which devices are active on my network and how open ports can expose them to risks. I also realized that port scanning is a simple but powerful tool for both defenders and attackers.
